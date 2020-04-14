@@ -1,0 +1,1274 @@
+{
+  "事实_主体事实_主观明知": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_哺乳自己婴儿的妇女": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_国家工作人员": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_国籍": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_嫌疑人年龄的认定": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "fields": [
+      {
+        "name": "age",
+        "label": "年龄",
+        "type": "number",
+        "default": null,
+        "required": true,
+        "rule": ""
+      }
+    ],
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_嫌疑人是否是怀孕妇女": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_是否患有艾滋病或其他传染病": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_残疾人或严重疾病": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_毒品来源以及毒品去向": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_犯罪嫌疑人是否具备刑事责任能力": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_犯罪嫌疑人是否吸毒": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_精神病认定": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_身份认定": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_是否以暴力抗拒检查拘留以及逮捕": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_是否携带武器": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_毒品查获位置": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_毒品查获地": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_毒品种类和数量": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_毒品纯度": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_毒品运输方式": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_运输起始地与目的地": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观事实_违反取保候审、监视居住规定": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_量刑情节_是否为胁从犯": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_量刑情节_犯罪嫌疑人是否坦白": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_量刑情节_犯罪嫌疑人是否立功": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_量刑情节_犯罪嫌疑人是否自首": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_量刑情节_社会危险性": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_量刑情节_累犯": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_量刑情节_再犯": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_共同故意": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_嫌疑人死亡": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "可以认定",
+        "B": "无法认定",
+        "C": "该事实认定存疑，需要核实、补充证据",
+        "D": "该事实认定的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

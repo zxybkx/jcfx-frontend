@@ -1,0 +1,58 @@
+.default {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+
+  & iframe {
+    width: 100%;
+    height: 99.5%;
+    border: none;
+    background: #fff;
+  }
+
+  & .Trigger {
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  & .Operations{
+    padding: 0;
+    display: block;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    & a{
+      border: 1px solid #0a66b7;
+      border-radius: 4px;
+      display: block;
+      cursor: pointer;
+      padding: 2px 5px;
+      color: #0a66b7;
+      font-size: 16px;
+      & .Icon{
+        color: #0a66b7;
+        font-size: 16px;
+      }
+      &:hover{
+        background: #0a66b7;
+        color: #fff;
+        & .Icon{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.globalSpin {
+  width: 100%;
+  margin: 40px 0 !important;
+}
+

@@ -1,0 +1,1132 @@
+{
+  "事实_主体事实_犯罪嫌疑人是否达刑事责任年龄": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "已达刑事责任年龄",
+        "B": "未达刑事责任年龄",
+        "C": "是否已达刑事责任年龄存疑，需要补充证据",
+        "D": "认定已达刑事责任年龄的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "fields": [
+      {
+        "name": "age",
+        "label": "年龄",
+        "type": "number",
+        "default": null,
+        "required": true,
+        "rule": ""
+      }
+    ],
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_主体事实_犯罪嫌疑人是否具备刑事责任能力": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "具备完全刑事责任能力",
+        "B": "具备限制刑事责任能力",
+        "C": "无刑事责任能力",
+        "D": "是否具备刑事责任能力存疑，需要补充证据",
+        "E": "认定具备刑事责任能力的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观行为_犯罪嫌疑人是否有酒后驾驶行为": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "有酒后驾驶行为",
+        "B": "无酒后驾驶行为",
+        "C": "是否有酒后驾驶行为存疑，需要补充证据",
+        "D": "认定有酒后驾驶行为的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观行为_犯罪嫌疑人是否醉酒": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "B",
+      "options": {
+        "A": "犯罪嫌疑人醉酒",
+        "B": "犯罪嫌疑人未醉酒",
+        "C": "犯罪嫌疑人是否醉酒存疑，需要补充证据",
+        "D": "认定犯罪嫌疑人醉酒的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观行为_犯罪嫌疑人驾驶车辆是否系机动车": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "驾驶车辆系机动车",
+        "B": "驾驶车辆系非机动车",
+        "C": "驾驶车辆是否系机动车存疑，需要补充证据",
+        "D": "认定驾驶车辆系机动车的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观行为_犯罪嫌疑人是否在道路上驾驶": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "在道路上驾驶",
+        "B": "未在道路上驾驶",
+        "C": "是否在道路上驾驶存疑，需要补充证据",
+        "D": "认定在道路上驾驶的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观行为_是否造成他人重伤或死亡": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "造成他人重伤或死亡",
+        "B": "未造成他人重伤或死亡",
+        "C": "是否造成他人重伤或死亡存疑，需要补充证据",
+        "D": "认定造成他人重伤或死亡的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_是否有危险驾驶罪特别规定的从重处罚情形_犯罪嫌疑人是否造成交通事故": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "未造成交通事故",
+        "B": "造成交通事故且负事故全部或者主要责任，且有逃逸情节",
+        "C": "造成交通事故且负事故全部或者主要责任",
+        "D": "造成交通事故后逃逸",
+        "E": "造成交通事故，但不负事故全部或者主要责任，也无逃逸情节",
+        "F": "是否负事故全部或者主要责任存疑，或者是否有逃逸情节存疑，需要补充证据",
+        "G": "认定负事故全部或者主要责任的证据不足，或者认定有逃逸情节的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_是否有危险驾驶罪特别规定的从重处罚情形_犯罪嫌疑人血液酒精含量是否达到200毫克/100毫升以上": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "血液酒精含量已达到200毫克/100毫升以上",
+        "B": "血液酒精含量未达到200毫克/100毫升以上",
+        "C": "血液酒精含量是否达到200毫克/100毫升以上存疑，需要补充证据",
+        "D": "认定血液酒精含量已达到200毫克/100毫升以上的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_是否有危险驾驶罪特别规定的从重处罚情形_犯罪嫌疑人是否在高速公路、城市快速路上驾驶": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "在高速公路、城市快速路上驾驶",
+        "B": "未在高速公路、城市快速路上驾驶",
+        "C": "是否在高速公路、城市快速路上驾驶存疑，需要补充证据",
+        "D": "认定在高速公路、城市快速路上驾驶的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_是否有危险驾驶罪特别规定的从重处罚情形_犯罪嫌疑人是否驾驶载有乘客的营运机动车": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "驾驶载有乘客的营运机动车",
+        "B": "所驾车辆未载乘客",
+        "C": "所驾车辆未从事营运业务",
+        "D": "是否驾驶载有乘客的营运机动车存疑，需要补充证据",
+        "E": "认定驾驶载有乘客的营运机动车的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_是否有危险驾驶罪特别规定的从重处罚情形_犯罪嫌疑人是否有严重超员等严重违反道路交通安全法的行为": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "无严重超员等严重违反道路交通安全法的行为",
+        "B": "有严重超员等严重违反道路交通安全法的行为",
+        "C": "是否有严重超员等严重违反道路交通安全法的行为存疑，需要补充证据",
+        "D": "是认定有严重超员等严重违反道路交通安全法的行为的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_是否有危险驾驶罪特别规定的从重处罚情形_犯罪嫌疑人是否逃避、拒绝、阻碍公安机关依法检查": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "未逃避、拒绝或阻碍公安机关依法检查",
+        "B": "逃避、拒绝或阻碍公安机关依法检查",
+        "C": "是否逃避、拒绝或阻碍公安机关依法检查存疑，需要补充证据",
+        "D": "认定逃避、拒绝或阻碍公安机关依法检查的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_是否有危险驾驶罪特别规定的从重处罚情形_犯罪嫌疑人是否曾因酒后驾驶机动车受过行政处罚或者刑事追究": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "曾因酒后驾驶机动车受过行政处罚或者刑事追究",
+        "B": "未曾因酒后驾驶机动车受过行政处罚或者刑事追究",
+        "C": "是否曾因酒后驾驶机动车受过行政处罚或者刑事追究存疑，需要补充证据",
+        "D": "认定曾因酒后驾驶机动车受过行政处罚或者刑事追究的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_通用量刑情节_犯罪嫌疑人是否坦白或自首": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "认定主动投案",
+        "B": "认定如实供述",
+        "C": "认定自首",
+        "D": "证据存疑",
+        "E": "不认定上述情节"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_客观行为_犯罪嫌疑人是否有驾驶行为": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "有驾驶行为",
+        "B": "无驾驶行为",
+        "C": "是否有驾驶行为存疑，需要补充证据",
+        "D": "认定有驾驶行为的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_通用量刑情节_犯罪嫌疑人是否具有立功情节": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "具有立功情节",
+        "B": "不具有立功情节",
+        "C": "是否具有立功情节存疑，需要补充证据",
+        "D": "认定具有立功情节的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_通用量刑情节_犯罪嫌疑人是否系未成年人或已满75周岁": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "系未成年人",
+        "B": "已满75周岁",
+        "C": "不是未成年人，也未满75周岁",
+        "D": "是否系未成年人存疑，或者是否已满75周岁存疑，需要补充证据",
+        "E": "认定系未成年人的证据不足",
+        "F": "认定已满75周岁的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_另三种构成危险驾驶罪的情形涉及的检查项_犯罪嫌疑人是否追逐竞驶": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "犯罪嫌疑人追逐竞驶",
+        "B": "犯罪嫌疑人未追逐竞驶",
+        "C": "犯罪嫌疑人是否追逐竞驶存疑，需要补充证据",
+        "D": "认定犯罪嫌疑人追逐竞驶的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_另三种构成危险驾驶罪的情形涉及的检查项_犯罪嫌疑人是否从事校车业务": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "从事校车业务",
+        "B": "未从事校车业务",
+        "C": "是否从事校车业务存疑，需要补充证据",
+        "D": "认定从事校车业务的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_另三种构成危险驾驶罪的情形涉及的检查项_犯罪嫌疑人是否从事旅客运输": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "从事旅客运输",
+        "B": "未从事旅客运输",
+        "C": "是否从事旅客运输存疑，需要补充证据",
+        "D": "认定从事旅客运输的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_另三种构成危险驾驶罪的情形涉及的检查项_犯罪嫌疑人是否严重超过额定乘员载客": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "严重超过额定乘员载客",
+        "B": "未严重超过额定乘员载客",
+        "C": "是否严重超过额定乘员载客存疑，需要补充证据",
+        "D": "认定严重超过额定乘员载客的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_另三种构成危险驾驶罪的情形涉及的检查项_犯罪嫌疑人是否严重超过规定时速行驶": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "严重超过规定时速行驶",
+        "B": "未严重超过规定时速行驶",
+        "C": "是否严重超过规定时速行驶存疑，需要补充证据",
+        "D": "认定严重超过规定时速行驶的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_另三种构成危险驾驶罪的情形涉及的检查项_犯罪嫌疑人是否违反危险化学品安全管理规定运输危险化学品": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "违反危险化学品安全管理规定运输危险化学品",
+        "B": "运输危险化学品合法",
+        "C": "未运输危险化学品",
+        "D": "是否违反危险化学品安全管理规定运输危险化学品存疑，需要补充证据",
+        "E": "认定违反危险化学品安全管理规定运输危险化学品证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_社会危险性_取保候审或监视居住期间有无故意实施新的犯罪等行为": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "无故意实施新的犯罪等违反取保候审或监视居住规定的行为",
+        "B": "有故意实施新的犯罪等违反取保候审或监视居住规定的行为",
+        "C": "是否有故意实施新的犯罪等违反取保候审或监视居住规定的行为存疑，需要补充证据",
+        "D": "认定有故意实施新的犯罪等违反取保候审或监视居住规定的行为的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_社会危险性_取保候审期间有无未经批准，擅自离开所居住的市、县，造成严重后果等行为": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "无未经批准，擅自离开所居住的市、县，造成严重后果等违反取保候审规定的行为",
+        "B": "有未经批准，擅自离开所居住的市、县，造成严重后果等违反取保候审规定的行为",
+        "C": "是否有未经批准，擅自离开所居住的市、县，造成严重后果等违反取保候审规定的行为存疑，需要补充证据",
+        "D": "认定有未经批准，擅自离开所居住的市、县，造成严重后果等违反取保候审规定的行为的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "事实_社会危险性_监视居住期间有无未经批准，擅自离开执行监视居住的处所，造成严重后果等行为": {
+    "dealOptions": {
+      "required": true,
+      "name": "result",
+      "label": "处理结果",
+      "align": "vertical",
+      "type": "RadioGroup",
+      "default": "A",
+      "options": {
+        "A": "无未经批准，擅自离开执行监视居住的处所，造成严重后果等违反监视居住规定的行为",
+        "B": "有未经批准，擅自离开执行监视居住的处所，造成严重后果等违反监视居住规定的行为",
+        "C": "是否有未经批准，擅自离开执行监视居住的处所，造成严重后果等违反监视居住规定的行为存疑，需要补充证据",
+        "D": "认定有未经批准，擅自离开执行监视居住的处所，造成严重后果等违反监视居住规定的行为的证据不足"
+      },
+      "category": {
+        "确认合法": [
+          "A"
+        ],
+        "确认非法": [
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "documents": {
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "type": "CheckboxGroup",
+      "default": [],
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

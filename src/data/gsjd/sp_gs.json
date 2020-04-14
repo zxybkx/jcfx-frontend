@@ -1,0 +1,732 @@
+[
+  {
+    "id": 10125,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "证据-犯罪嫌疑人供述-侦查主体合法性侦查",
+    "wtms": "判决起止日期不正确",
+    "yjfl": "量刑",
+    "ejfl": "XX",
+    "dqzt": "待处理",
+    "zzjg": "B",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": "310 876 588 931"
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "提起起诉时间",
+              "fieldvalue": "2017年1月18日"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": "244 742 1075 798"
+                }
+              ],
+              "fieldname": "判决关押时间",
+              "fieldvalue": "2017年12月20日至2019年12月19日"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "判决时间正确性检查",
+    "dealdata": null
+  },
+  {
+    "id": 10124,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "证据-犯罪嫌疑人供述-侦查主体合法性侦查",
+    "wtms": "存在逃逸情节",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "关键要素",
+    "zzjg": "B",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": "419 1220 688 1270"
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "是否存在逃逸情节",
+              "fieldvalue": "是"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": "469 12 677 62"
+                }
+              ],
+              "fieldname": "是否存在逃逸情节",
+              "fieldvalue": "是"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "逃逸情节",
+    "dealdata": null
+  },
+  {
+    "id": 112021,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "证据-犯罪嫌疑人供述-侦查主体合法性侦查",
+    "wtms": "自首",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "关键要素",
+    "zzjg": "B",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": "31 1455 130 1509"
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "是否自首",
+              "fieldvalue": "是"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": "563 84 702 148"
+                }
+              ],
+              "fieldname": "是否自首",
+              "fieldvalue": "是"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "自首",
+    "dealdata": null
+  },
+  {
+    "id": 107228,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-客观行为-基本事实-事故发生地点",
+    "wtms": "事故地点可以认定：平望镇梅堰国望大道",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "A",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": "913 1427 1176 1476"
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "事故发生地点",
+              "fieldvalue": "平望镇梅堰国望大道"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": "313 1574 680 1634"
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "事故发生地点",
+              "fieldvalue": "平望镇梅堰国望大道"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "事故发生地点",
+    "dealdata": null
+  },
+  {
+    "id": 107232,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-客观行为-特殊情形-酒后",
+    "wtms": "存在“酒后”情节",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "B",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": "997 1351 1165 1395"
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "是否存在酒后情节",
+              "fieldvalue": "是"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": "400 1501 600 1551"
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "是否存在酒后情节",
+              "fieldvalue": "是"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "酒后",
+    "dealdata": null
+  },
+  {
+    "id": 107227,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-客观行为-基本事实-车辆信息",
+    "wtms": "车辆信息认定：苏E662TA 小型轿车",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "A",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": "162 1427 405 1485"
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "车辆信息",
+              "fieldvalue": "苏E662TA 小型轿车"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": "720 1504 946 1550"
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "车辆信息",
+              "fieldvalue": "苏E662TA 小型轿车"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "车辆信息",
+    "dealdata": null
+  },
+  {
+    "id": 107229,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-客观行为-基本事实-事故发生时间",
+    "wtms": "事故时间可以认定：2016年12月20日凌晨4时",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "A",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": "95 1343 710 1406"
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "提取事故时间",
+              "fieldvalue": "2016年12月20日凌晨4时"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": "676 1427 1170 1497"
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "提取事故时间",
+              "fieldvalue": "2016年12月20日凌晨4时"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "事故发生时间",
+    "dealdata": {
+      "result": "A"
+    }
+  },
+  {
+    "id": 107225,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-客观行为-后果-死亡人数",
+    "wtms": "死亡人数：1",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "A",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "提取的死亡人数",
+              "fieldvalue": "沈阿七一人"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "提取的死亡人数",
+              "fieldvalue": "1人"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "死亡人数",
+    "dealdata": null
+  },
+  {
+    "id": 107233,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-客观行为-犯罪嫌疑人在交通事故中所负责任",
+    "wtms": "认定“嫌疑人所负责任”：全部责任",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "A",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "责任",
+              "fieldvalue": "主要责任"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "责任",
+              "fieldvalue": "主要责任"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "犯罪嫌疑人在交通事故中所负责任",
+    "dealdata": null
+  },
+  {
+    "id": 107238,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-主体事实-年龄",
+    "wtms": "认定出生日期：1979年11月19日",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "A",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "生日日期",
+              "fieldvalue": "1979年11月19日"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "生日日期",
+              "fieldvalue": "1979年11月19日"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "年龄",
+    "dealdata": {
+      "result": "A"
+    }
+  },
+  {
+    "id": 107239,
+    "tysah": "32010620160189500",
+    "bmsah": "宁鼓检起诉受[2017]32010600074号",
+    "keyid": "事实-主体事实-刑事责任能力",
+    "wtms": "具备完全刑事责任能力",
+    "yjfl": "事实认定",
+    "ejfl": "XX",
+    "dqzt": "完全认定",
+    "zzjg": "A",
+    "jgms": null,
+    "jsondata": {
+      "data": [
+        {
+          "title": "起诉书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/qss504.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss505.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/qss506.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "是否具备完全刑事能力",
+              "fieldvalue": "是"
+            }
+          ]
+        },
+        {
+          "title": "判决书",
+          "contents": [
+            {
+              "coords": [
+                {
+                  "image": "/samples/gs/pjs501.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs502.PNG",
+                  "pos": ""
+                },
+                {
+                  "image": "/samples/gs/pjs503.PNG",
+                  "pos": ""
+                }
+              ],
+              "fieldname": "是否具备完全刑事能力",
+              "fieldvalue": "是"
+            }
+          ]
+        }
+      ]
+    },
+    "cjsj": "2017-04-24T00:00:00+08:00",
+    "zhxgsj": "2017-04-24T00:00:00+08:00",
+    "gzmc": "刑事责任能力",
+    "dealdata": null
+  }
+]

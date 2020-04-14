@@ -1,0 +1,125 @@
+.default {
+  height: 58%;
+  position: relative;
+  padding: 18px;
+
+  .p1 {
+    position: absolute;
+    top: -11px;
+    right: 0;
+  }
+
+  .p2 {
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+  }
+
+  .p3 {
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+  }
+
+  .p4 {
+    position: absolute;
+    top: -11px;
+    left: 0;
+  }
+
+  .more {
+    border-top: 1px solid rgb(230, 245, 255);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+    background-color: #999;
+    z-index: 100;
+
+    .icon {
+      position: absolute;
+      top: 10px;
+      right: 45px;
+      color: #d7d7d7;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .icon:hover {
+      color: #1890ff;
+    }
+  }
+
+  .logo {
+    width: 57px;
+    position: absolute;
+    top: 0;
+    right: 12px;
+  }
+
+  .tb {
+    position: relative;
+
+    .tbImg {
+      position: absolute;
+      top: 0;
+      left: -12px;
+      width: 50px;
+    }
+
+    .ytb {
+      margin-top: -18px;
+      margin-left: 36px;
+      height: 102px;
+      width: 118px;
+      padding: 10px;
+      color: #4f5e7b;
+    }
+  }
+
+  .topTitle {
+    color: #165ac6;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .title {
+    color: #165ac6;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .first {
+    width: 90%;
+    height: 14%;
+    text-align: center;
+    cursor: pointer;
+
+    .second {
+      display: inline-block;
+      text-align: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .drillDown {
+    z-index: 10000;
+    height: 80%;
+    width: 50%;
+    background: #fff;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+}
+
+:global {
+  .ant-tooltip {
+    z-index: 101;
+  }
+}

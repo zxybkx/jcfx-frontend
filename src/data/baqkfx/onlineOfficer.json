@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "data":[
+    {
+      "key": "1",
+      "area": "南京",
+      "count": "320",
+      "trend":"up",
+      "percentage":"75"
+    },
+    {
+      "key": "2",
+      "area": "南通",
+      "count": "255",
+      "trend":"up",
+      "percentage":"75"
+    },
+    {
+      "key": "3",
+      "area": "扬州",
+      "count": "236",
+      "trend":"down",
+      "percentage":"60"
+    },
+    {
+      "key": "4",
+      "area": "常州",
+      "count": "300",
+      "trend":"up",
+      "percentage":"75"
+    },
+    {
+      "key": "5",
+      "area": "无锡",
+      "count": "200",
+      "trend":"up",
+      "percentage":"75"
+    },
+    {
+      "key": "6",
+      "area": "苏州",
+      "count": "259",
+      "trend":"down",
+      "percentage":"65"
+    },
+    {
+      "key": "7",
+      "area": "泰州",
+      "count": "220",
+      "trend":"up",
+      "percentage":"75"
+    },
+    {
+      "key": "8",
+      "area": "徐州",
+      "count": "100",
+      "trend":"down",
+      "percentage":"45"
+    }
+  ],
+  "message": "数据获取成功"
+}

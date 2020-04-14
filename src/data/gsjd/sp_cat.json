@@ -1,0 +1,40 @@
+[
+  {
+    "bmsah": "宁鼓检捕受[2016]32010600662号",
+    "categoryName": "诉讼程序",
+    "total": 0,
+    "statusSet": []
+  },
+  {
+    "bmsah": "宁鼓检捕受[2016]32010600662号",
+    "categoryName": "事实认定",
+    "total": 11,
+    "statusSet": [
+      {
+        "value": 2,
+        "label": "关键要素"
+      },
+      {
+        "value": 8,
+        "label": "完全认定"
+      }
+    ]
+  },
+  {
+    "bmsah": "宁鼓检捕受[2016]32010600662号",
+    "categoryName": "适用法律",
+    "total": 0,
+    "statusSet": []
+  },
+  {
+    "bmsah": "宁鼓检捕受[2016]32010600662号",
+    "categoryName": "量刑",
+    "total": 6,
+    "statusSet": [
+      {
+        "value": 1,
+        "label": "待处理"
+      }
+    ]
+  }
+]

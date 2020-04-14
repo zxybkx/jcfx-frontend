@@ -1,0 +1,74 @@
+{
+  "cx": {
+    "dealOptions": {
+      "required": true,
+      "type": "RadioGroup",
+      "name": "result",
+      "label": "处理结果",
+      "options": {
+        "A": "合法",
+        "B": "违法"
+      },
+      "category":{
+        "确认合法":["A"],
+        "确认非法":["B"]
+      }
+    },
+    "documents": {
+      "type": "CheckboxGroup",
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议书",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  },
+  "zj": {
+    "dealOptions": {
+      "required": true,
+      "type": "RadioGroup",
+      "name": "result",
+      "label": "处理结果",
+      "options": {
+        "A": "合法证据",
+        "B": "非法证据",
+        "C": "瑕疵证据"
+      },
+      "category":{
+        "确认合法":["A"],
+        "确认非法":["B","C"]
+      },
+      "sub": [
+        {
+          "type": "RadioGroup",
+          "name": "subResult",
+          "trigger": "C",
+          "options": {
+            "A": "确认合法",
+            "B": "确认非法",
+            "C": "无法确定"
+          }
+        }
+      ]
+
+    },
+    "documents": {
+      "type": "CheckboxGroup",
+      "name": "document",
+      "label": "生成文书",
+      "align": "vertical",
+      "options": {
+        "A": "讯问提纲",
+        "B": "补充侦查提纲",
+        "C": "检察建议书",
+        "D": "纠正违法通知书",
+        "E": "口头纠正违法通知"
+      }
+    }
+  }
+}

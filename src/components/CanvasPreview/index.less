@@ -1,0 +1,60 @@
+.image {
+  margin: 5px;
+}
+
+.CanvasPreview{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+  & .Container{
+    height: 100%;
+    overflow: auto;
+  }
+
+  .ToolBar{
+    width: 100%;
+    z-index: 19;
+    padding: 10px 20px;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    top:0;
+    left: 0;
+
+    & .Hide{
+      float: left;
+      margin: 5px 0;
+    }
+    & .Scale{
+      width: 40%;
+      float: right;
+      padding: 0 20px;
+      position: relative;
+
+      & .Icon {
+        position: absolute;
+        border: none;
+        top: 8px;
+        line-height: 1;
+        font-size: 20px;
+        color: #f7f7f7;
+        &.left{
+          left: 0;
+        }
+        &.right{
+          right: 0;
+        }
+      }
+
+      :global{
+        .ant-slider{
+           margin: 18px 20px;
+        }
+      }
+
+    }
+  }
+}
+
+

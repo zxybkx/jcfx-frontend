@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "start": "cross-env ESLINT=none COMPILE_ON_DEMAND=none PORT=9204 umi dev",
+    "build": "cross-env PUBLIC_PATH=/jcfx/static/ BASE_URL=/jcfx/ ESLINT=none TSLINT=none umi build"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.42",
+    "ant-design-pro": "^1.4.4",
+    "clipboard-copy": "^2.0.0",
+    "dom-to-image": "^2.6.0",
+    "echarts": "^4.1.0",
+    "echarts-for-react": "^2.0.8",
+    "fabric": "^2.2.3",
+    "font-awesome": "^4.7.0",
+    "install": "^0.11.0",
+    "jquery": "^3.3.1",
+    "js-cookie": "^2.2.0",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.10",
+    "megadraft": "^0.4.37",
+    "react-contextmenu": "^2.9.2",
+    "react-draft-wysiwyg": "^1.12.13",
+    "react-fontawesome": "^1.6.1",
+    "store": "^2.0.12",
+    "umi": "^1.3.18",
+    "umi-plugin-dll": "^0.2.1",
+    "umi-plugin-dva": "^0.9.1",
+    "umi-plugin-routes": "^0.1.5",
+    "umi-plugin-polyfill": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.4.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-umi": "^0.1.4",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
